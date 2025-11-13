@@ -70,10 +70,10 @@ These are normal Windows service ports but can be exploited if malware spreads i
 ### High Risk
 - **FTP on router (port 21)** — should be disabled; sends data without encryption.
 
-### ⚠ Medium Risk
+###  Medium Risk
 - **SMB (445)** on the Windows device — commonly targeted by malware inside LANs.
 
-### ℹ Low Risk / Normal
+###  Low Risk / Normal
 - Smart TV exposing multiple ports is normal for IoT devices, but still increases attack surface.
 
 ---
@@ -85,12 +85,6 @@ These are normal Windows service ports but can be exploited if malware spreads i
 - Restrict SMB (Windows sharing) to trusted devices only.
 - Perform periodic Nmap scans to check for unknown devices.
 
----
-
-##  Files Included in Repository
-- `nmap_scan.xml` — Complete Nmap scan output  
-- `README.md` — This documentation  
-- `screenshots/` *(optional)* — Zenmap screenshot proofs (if added)
 
 ---
 
