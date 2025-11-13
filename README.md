@@ -1,10 +1,4 @@
-# Cyber Security Internship – Task 1  
-**Local Network Port Scanning using Nmap/Zenmap**  
-*(All internal IP addresses have been hidden for privacy)*
-
----
-
-## 📝 Overview
+## Overview
 In this task, I performed a port scan on my local network to identify active devices, the ports they expose, and potential security risks.  
 This helped me understand basic network reconnaissance techniques and how attackers analyze networks.
 
@@ -12,34 +6,32 @@ I used **Zenmap (Graphical Nmap)** to complete this task.
 
 ---
 
-## 🛠 Tools Used
+## Tools Used
 - **Nmap / Zenmap GUI**
 - **Windows CMD** (to check local IP range)
-- **Wireshark** (optional for packet analysis)
-- **GitHub** (for documentation and submission)
 
 ---
 
-## 🌐 Network Range Scanned
+##  Network Range Scanned
 I scanned my private internal subnet:
 
 (Actual IP range hidden in this README.)
 You can check .xml file
 ---
 
-## 📡 Scan Command Used
+##  Scan Command Used
 Generated automatically by Zenmap:
 
 
 ---
 
-## 📊 Scan Summary (IPs Hidden)
+##  Scan Summary (IPs Hidden)
 
 A total of **4 devices** were detected on my network:
 
 ---
 
-### 1️⃣ **Router (Home Gateway)**
+###  **Router (Home Gateway)**
 **Open Ports:**
 - 21 (FTP) – ⚠ Insecure
 - 22 (SSH)
@@ -51,14 +43,14 @@ FTP (port 21) should be disabled if not required, as it sends data unencrypted.
 
 ---
 
-### 2️⃣ **Smart TV (IoT – LG TV)**
+### 2️ **Smart TV (IoT – LG TV)**
 **Open Ports:**
 - 3000, 3001, 7000, 8008, 8009, 8443  
 These are typical for smart TV services and DLNA/AirPlay functionality.
 
 ---
 
-### 3️⃣ **Windows Laptop/PC**
+### 3️ **Windows Laptop/PC**
 **Open Ports:**
 - 135 (MSRPC)
 - 139 (NetBIOS)
@@ -69,13 +61,13 @@ These are normal Windows service ports but can be exploited if malware spreads i
 
 ---
 
-### 4️⃣ **Unknown Device**
+### 4️ **Unknown Device**
 - Device was active but had **no open ports**, likely due to strict firewall settings.
 
 ---
 
-## 🚨 Security Risks Identified
-### 🔥 High Risk
+##  Security Risks Identified
+### High Risk
 - **FTP on router (port 21)** — should be disabled; sends data without encryption.
 
 ### ⚠ Medium Risk
@@ -86,7 +78,7 @@ These are normal Windows service ports but can be exploited if malware spreads i
 
 ---
 
-## 🛡 Recommendations
+##  Recommendations
 - Disable **FTP (port 21)** on router.
 - Update router and IoT firmware regularly.
 - Use a strong password for router admin access.
@@ -95,23 +87,18 @@ These are normal Windows service ports but can be exploited if malware spreads i
 
 ---
 
-## 📁 Files Included in Repository
+##  Files Included in Repository
 - `nmap_scan.xml` — Complete Nmap scan output  
 - `README.md` — This documentation  
 - `screenshots/` *(optional)* — Zenmap screenshot proofs (if added)
 
 ---
 
-## 🎯 What I Learned
+##  What I Learned
 - How to run a port scan using Nmap/Zenmap  
 - How to analyze open ports and services  
 - Different device behaviors on a local network  
 - Basic identification of network risks  
 - Importance of securing internal home/office networks  
-
----
-
-## 📤 Submission
-I will submit my GitHub repository link in the internship Google Form provided by the team.
 
 ---
