@@ -33,7 +33,7 @@ A total of **4 devices** were detected on my network:
 
 ###  **Router (Home Gateway)**
 **Open Ports:**
-- 21 (FTP) – ⚠ Insecure
+- 21 (FTP) – Insecure
 - 22 (SSH)
 - 80 (HTTP)
 - 443 (HTTPS)
