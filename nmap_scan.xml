@@ -1,0 +1,713 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="file:///C:/Program Files (x86)/Nmap/nmap.xsl" type="text/xsl"?><nmaprun args="nmap -T4 -A -v 192.168.1.0/24" profile_name="Intense scan" scanner="nmap" start="1763033030" startstr="Thu Nov 13 16:53:50 2025" version="7.98" xmloutputversion="1.04"><scaninfo type="syn" protocol="tcp" numservices="1000" services="1,3-4,6-7,9,13,17,19-26,30,32-33,37,42-43,49,53,70,79-85,88-90,99-100,106,109-111,113,119,125,135,139,143-144,146,161,163,179,199,211-212,222,254-256,259,264,280,301,306,311,340,366,389,406-407,416-417,425,427,443-445,458,464-465,481,497,500,512-515,524,541,543-545,548,554-555,563,587,593,616-617,625,631,636,646,648,666-668,683,687,691,700,705,711,714,720,722,726,749,765,777,783,787,800-801,808,843,873,880,888,898,900-903,911-912,981,987,990,992-993,995,999-1002,1007,1009-1011,1021-1100,1102,1104-1108,1110-1114,1117,1119,1121-1124,1126,1130-1132,1137-1138,1141,1145,1147-1149,1151-1152,1154,1163-1166,1169,1174-1175,1183,1185-1187,1192,1198-1199,1201,1213,1216-1218,1233-1234,1236,1244,1247-1248,1259,1271-1272,1277,1287,1296,1300-1301,1309-1311,1322,1328,1334,1352,1417,1433-1434,1443,1455,1461,1494,1500-1501,1503,1521,1524,1533,1556,1580,1583,1594,1600,1641,1658,1666,1687-1688,1700,1717-1721,1723,1755,1761,1782-1783,1801,1805,1812,1839-1840,1862-1864,1875,1900,1914,1935,1947,1971-1972,1974,1984,1998-2010,2013,2020-2022,2030,2033-2035,2038,2040-2043,2045-2049,2065,2068,2099-2100,2103,2105-2107,2111,2119,2121,2126,2135,2144,2160-2161,2170,2179,2190-2191,2196,2200,2222,2251,2260,2288,2301,2323,2366,2381-2383,2393-2394,2399,2401,2492,2500,2522,2525,2557,2601-2602,2604-2605,2607-2608,2638,2701-2702,2710,2717-2718,2725,2800,2809,2811,2869,2875,2909-2910,2920,2967-2968,2998,3000-3001,3003,3005-3006,3011,3017,3030-3031,3052,3071,3077,3128,3168,3211,3221,3260-3261,3268-3269,3283,3300-3301,3306,3322-3325,3333,3351,3367,3369-3372,3389-3390,3404,3476,3493,3517,3527,3546,3551,3580,3659,3689-3690,3703,3737,3766,3784,3800-3801,3809,3814,3826-3828,3851,3869,3871,3878,3880,3889,3905,3914,3918,3920,3945,3971,3986,3995,3998,4000-4006,4045,4111,4125-4126,4129,4224,4242,4279,4321,4343,4443-4446,4449,4550,4567,4662,4848,4899-4900,4998,5000-5004,5009,5030,5033,5050-5051,5054,5060-5061,5080,5087,5100-5102,5120,5190,5200,5214,5221-5222,5225-5226,5269,5280,5298,5357,5405,5414,5431-5432,5440,5500,5510,5544,5550,5555,5560,5566,5631,5633,5666,5678-5679,5718,5730,5800-5802,5810-5811,5815,5822,5825,5850,5859,5862,5877,5900-5904,5906-5907,5910-5911,5915,5922,5925,5950,5952,5959-5963,5985-5989,5998-6007,6009,6025,6059,6100-6101,6106,6112,6123,6129,6156,6346,6389,6502,6510,6543,6547,6565-6567,6580,6646,6666-6669,6689,6692,6699,6779,6788-6789,6792,6839,6881,6901,6969,7000-7002,7004,7007,7019,7025,7070,7100,7103,7106,7200-7201,7402,7435,7443,7496,7512,7625,7627,7676,7741,7777-7778,7800,7911,7920-7921,7937-7938,7999-8002,8007-8011,8021-8022,8031,8042,8045,8080-8090,8093,8099-8100,8180-8181,8192-8194,8200,8222,8254,8290-8292,8300,8333,8383,8400,8402,8443,8500,8600,8649,8651-8652,8654,8701,8800,8873,8888,8899,8994,9000-9003,9009-9011,9040,9050,9071,9080-9081,9090-9091,9099-9103,9110-9111,9200,9207,9220,9290,9415,9418,9485,9500,9502-9503,9535,9575,9593-9595,9618,9666,9876-9878,9898,9900,9917,9929,9943-9944,9968,9998-10004,10009-10010,10012,10024-10025,10082,10180,10215,10243,10566,10616-10617,10621,10626,10628-10629,10778,11110-11111,11967,12000,12174,12265,12345,13456,13722,13782-13783,14000,14238,14441-14442,15000,15002-15004,15660,15742,16000-16001,16012,16016,16018,16080,16113,16992-16993,17877,17988,18040,18101,18988,19101,19283,19315,19350,19780,19801,19842,20000,20005,20031,20221-20222,20828,21571,22939,23502,24444,24800,25734-25735,26214,27000,27352-27353,27355-27356,27715,28201,30000,30718,30951,31038,31337,32768-32785,33354,33899,34571-34573,35500,38292,40193,40911,41511,42510,44176,44442-44443,44501,45100,48080,49152-49161,49163,49165,49167,49175-49176,49400,49999-50003,50006,50300,50389,50500,50636,50800,51103,51493,52673,52822,52848,52869,54045,54328,55055-55056,55555,55600,56737-56738,57294,57797,58080,60020,60443,61532,61900,62078,63331,64623,64680,65000,65129,65389"></scaninfo><verbose level="1"></verbose><debugging level="0"></debugging><output type="interactive">Starting Nmap 7.98 ( https://nmap.org ) at 2025-11-13 16:53 +0530
+NSE: Loaded 158 scripts for scanning.
+NSE: Script Pre-scanning.
+Initiating NSE at 16:53
+Completed NSE at 16:53, 0.00s elapsed
+Initiating NSE at 16:53
+Completed NSE at 16:53, 0.00s elapsed
+Initiating NSE at 16:53
+Completed NSE at 16:53, 0.00s elapsed
+Initiating ARP Ping Scan at 16:53
+Scanning 255 hosts [1 port/host]
+Completed ARP Ping Scan at 16:54, 14.45s elapsed (255 total hosts)
+Initiating Parallel DNS resolution of 3 hosts. at 16:54
+Completed Parallel DNS resolution of 3 hosts. at 16:54, 0.51s elapsed
+Nmap scan report for 192.168.1.0 [host down]
+Nmap scan report for 192.168.1.1 [host down]
+Nmap scan report for 192.168.1.2 [host down]
+Nmap scan report for 192.168.1.3 [host down]
+Nmap scan report for 192.168.1.4 [host down]
+Nmap scan report for 192.168.1.5 [host down]
+Nmap scan report for 192.168.1.6 [host down]
+Nmap scan report for 192.168.1.7 [host down]
+Nmap scan report for 192.168.1.8 [host down]
+Nmap scan report for 192.168.1.9 [host down]
+Nmap scan report for 192.168.1.10 [host down]
+Nmap scan report for 192.168.1.11 [host down]
+Nmap scan report for 192.168.1.12 [host down]
+Nmap scan report for 192.168.1.13 [host down]
+Nmap scan report for 192.168.1.14 [host down]
+Nmap scan report for 192.168.1.15 [host down]
+Nmap scan report for 192.168.1.16 [host down]
+Nmap scan report for 192.168.1.17 [host down]
+Nmap scan report for 192.168.1.18 [host down]
+Nmap scan report for 192.168.1.19 [host down]
+Nmap scan report for 192.168.1.20 [host down]
+Nmap scan report for 192.168.1.21 [host down]
+Nmap scan report for 192.168.1.22 [host down]
+Nmap scan report for 192.168.1.23 [host down]
+Nmap scan report for 192.168.1.24 [host down]
+Nmap scan report for 192.168.1.25 [host down]
+Nmap scan report for 192.168.1.26 [host down]
+Nmap scan report for 192.168.1.27 [host down]
+Nmap scan report for 192.168.1.28 [host down]
+Nmap scan report for 192.168.1.29 [host down]
+Nmap scan report for 192.168.1.30 [host down]
+Nmap scan report for 192.168.1.31 [host down]
+Nmap scan report for 192.168.1.32 [host down]
+Nmap scan report for 192.168.1.33 [host down]
+Nmap scan report for 192.168.1.34 [host down]
+Nmap scan report for 192.168.1.35 [host down]
+Nmap scan report for 192.168.1.36 [host down]
+Nmap scan report for 192.168.1.37 [host down]
+Nmap scan report for 192.168.1.38 [host down]
+Nmap scan report for 192.168.1.39 [host down]
+Nmap scan report for 192.168.1.40 [host down]
+Nmap scan report for 192.168.1.41 [host down]
+Nmap scan report for 192.168.1.42 [host down]
+Nmap scan report for 192.168.1.43 [host down]
+Nmap scan report for 192.168.1.44 [host down]
+Nmap scan report for 192.168.1.45 [host down]
+Nmap scan report for 192.168.1.46 [host down]
+Nmap scan report for 192.168.1.47 [host down]
+Nmap scan report for 192.168.1.48 [host down]
+Nmap scan report for 192.168.1.49 [host down]
+Nmap scan report for 192.168.1.50 [host down]
+Nmap scan report for 192.168.1.51 [host down]
+Nmap scan report for 192.168.1.52 [host down]
+Nmap scan report for 192.168.1.53 [host down]
+Nmap scan report for 192.168.1.54 [host down]
+Nmap scan report for 192.168.1.55 [host down]
+Nmap scan report for 192.168.1.56 [host down]
+Nmap scan report for 192.168.1.57 [host down]
+Nmap scan report for 192.168.1.58 [host down]
+Nmap scan report for 192.168.1.59 [host down]
+Nmap scan report for 192.168.1.60 [host down]
+Nmap scan report for 192.168.1.61 [host down]
+Nmap scan report for 192.168.1.62 [host down]
+Nmap scan report for 192.168.1.63 [host down]
+Nmap scan report for 192.168.1.64 [host down]
+Nmap scan report for 192.168.1.65 [host down]
+Nmap scan report for 192.168.1.66 [host down]
+Nmap scan report for 192.168.1.68 [host down]
+Nmap scan report for 192.168.1.69 [host down]
+Nmap scan report for 192.168.1.70 [host down]
+Nmap scan report for 192.168.1.71 [host down]
+Nmap scan report for 192.168.1.72 [host down]
+Nmap scan report for 192.168.1.75 [host down]
+Nmap scan report for 192.168.1.76 [host down]
+Nmap scan report for 192.168.1.77 [host down]
+Nmap scan report for 192.168.1.78 [host down]
+Nmap scan report for 192.168.1.79 [host down]
+Nmap scan report for 192.168.1.80 [host down]
+Nmap scan report for 192.168.1.81 [host down]
+Nmap scan report for 192.168.1.82 [host down]
+Nmap scan report for 192.168.1.83 [host down]
+Nmap scan report for 192.168.1.84 [host down]
+Nmap scan report for 192.168.1.85 [host down]
+Nmap scan report for 192.168.1.86 [host down]
+Nmap scan report for 192.168.1.87 [host down]
+Nmap scan report for 192.168.1.88 [host down]
+Nmap scan report for 192.168.1.89 [host down]
+Nmap scan report for 192.168.1.90 [host down]
+Nmap scan report for 192.168.1.91 [host down]
+Nmap scan report for 192.168.1.92 [host down]
+Nmap scan report for 192.168.1.93 [host down]
+Nmap scan report for 192.168.1.94 [host down]
+Nmap scan report for 192.168.1.95 [host down]
+Nmap scan report for 192.168.1.96 [host down]
+Nmap scan report for 192.168.1.97 [host down]
+Nmap scan report for 192.168.1.98 [host down]
+Nmap scan report for 192.168.1.99 [host down]
+Nmap scan report for 192.168.1.100 [host down]
+Nmap scan report for 192.168.1.101 [host down]
+Nmap scan report for 192.168.1.102 [host down]
+Nmap scan report for 192.168.1.103 [host down]
+Nmap scan report for 192.168.1.104 [host down]
+Nmap scan report for 192.168.1.105 [host down]
+Nmap scan report for 192.168.1.106 [host down]
+Nmap scan report for 192.168.1.107 [host down]
+Nmap scan report for 192.168.1.108 [host down]
+Nmap scan report for 192.168.1.109 [host down]
+Nmap scan report for 192.168.1.110 [host down]
+Nmap scan report for 192.168.1.111 [host down]
+Nmap scan report for 192.168.1.112 [host down]
+Nmap scan report for 192.168.1.113 [host down]
+Nmap scan report for 192.168.1.114 [host down]
+Nmap scan report for 192.168.1.115 [host down]
+Nmap scan report for 192.168.1.116 [host down]
+Nmap scan report for 192.168.1.117 [host down]
+Nmap scan report for 192.168.1.118 [host down]
+Nmap scan report for 192.168.1.119 [host down]
+Nmap scan report for 192.168.1.120 [host down]
+Nmap scan report for 192.168.1.121 [host down]
+Nmap scan report for 192.168.1.122 [host down]
+Nmap scan report for 192.168.1.123 [host down]
+Nmap scan report for 192.168.1.124 [host down]
+Nmap scan report for 192.168.1.125 [host down]
+Nmap scan report for 192.168.1.126 [host down]
+Nmap scan report for 192.168.1.127 [host down]
+Nmap scan report for 192.168.1.128 [host down]
+Nmap scan report for 192.168.1.129 [host down]
+Nmap scan report for 192.168.1.130 [host down]
+Nmap scan report for 192.168.1.131 [host down]
+Nmap scan report for 192.168.1.132 [host down]
+Nmap scan report for 192.168.1.133 [host down]
+Nmap scan report for 192.168.1.134 [host down]
+Nmap scan report for 192.168.1.135 [host down]
+Nmap scan report for 192.168.1.136 [host down]
+Nmap scan report for 192.168.1.137 [host down]
+Nmap scan report for 192.168.1.138 [host down]
+Nmap scan report for 192.168.1.139 [host down]
+Nmap scan report for 192.168.1.140 [host down]
+Nmap scan report for 192.168.1.141 [host down]
+Nmap scan report for 192.168.1.142 [host down]
+Nmap scan report for 192.168.1.143 [host down]
+Nmap scan report for 192.168.1.144 [host down]
+Nmap scan report for 192.168.1.145 [host down]
+Nmap scan report for 192.168.1.146 [host down]
+Nmap scan report for 192.168.1.147 [host down]
+Nmap scan report for 192.168.1.148 [host down]
+Nmap scan report for 192.168.1.149 [host down]
+Nmap scan report for 192.168.1.150 [host down]
+Nmap scan report for 192.168.1.151 [host down]
+Nmap scan report for 192.168.1.152 [host down]
+Nmap scan report for 192.168.1.153 [host down]
+Nmap scan report for 192.168.1.154 [host down]
+Nmap scan report for 192.168.1.155 [host down]
+Nmap scan report for 192.168.1.156 [host down]
+Nmap scan report for 192.168.1.157 [host down]
+Nmap scan report for 192.168.1.158 [host down]
+Nmap scan report for 192.168.1.159 [host down]
+Nmap scan report for 192.168.1.160 [host down]
+Nmap scan report for 192.168.1.161 [host down]
+Nmap scan report for 192.168.1.162 [host down]
+Nmap scan report for 192.168.1.163 [host down]
+Nmap scan report for 192.168.1.164 [host down]
+Nmap scan report for 192.168.1.165 [host down]
+Nmap scan report for 192.168.1.166 [host down]
+Nmap scan report for 192.168.1.167 [host down]
+Nmap scan report for 192.168.1.168 [host down]
+Nmap scan report for 192.168.1.169 [host down]
+Nmap scan report for 192.168.1.170 [host down]
+Nmap scan report for 192.168.1.171 [host down]
+Nmap scan report for 192.168.1.172 [host down]
+Nmap scan report for 192.168.1.173 [host down]
+Nmap scan report for 192.168.1.174 [host down]
+Nmap scan report for 192.168.1.175 [host down]
+Nmap scan report for 192.168.1.176 [host down]
+Nmap scan report for 192.168.1.177 [host down]
+Nmap scan report for 192.168.1.178 [host down]
+Nmap scan report for 192.168.1.179 [host down]
+Nmap scan report for 192.168.1.180 [host down]
+Nmap scan report for 192.168.1.181 [host down]
+Nmap scan report for 192.168.1.182 [host down]
+Nmap scan report for 192.168.1.183 [host down]
+Nmap scan report for 192.168.1.184 [host down]
+Nmap scan report for 192.168.1.185 [host down]
+Nmap scan report for 192.168.1.186 [host down]
+Nmap scan report for 192.168.1.187 [host down]
+Nmap scan report for 192.168.1.188 [host down]
+Nmap scan report for 192.168.1.189 [host down]
+Nmap scan report for 192.168.1.190 [host down]
+Nmap scan report for 192.168.1.191 [host down]
+Nmap scan report for 192.168.1.192 [host down]
+Nmap scan report for 192.168.1.193 [host down]
+Nmap scan report for 192.168.1.194 [host down]
+Nmap scan report for 192.168.1.195 [host down]
+Nmap scan report for 192.168.1.196 [host down]
+Nmap scan report for 192.168.1.197 [host down]
+Nmap scan report for 192.168.1.198 [host down]
+Nmap scan report for 192.168.1.199 [host down]
+Nmap scan report for 192.168.1.200 [host down]
+Nmap scan report for 192.168.1.201 [host down]
+Nmap scan report for 192.168.1.202 [host down]
+Nmap scan report for 192.168.1.203 [host down]
+Nmap scan report for 192.168.1.204 [host down]
+Nmap scan report for 192.168.1.205 [host down]
+Nmap scan report for 192.168.1.206 [host down]
+Nmap scan report for 192.168.1.207 [host down]
+Nmap scan report for 192.168.1.208 [host down]
+Nmap scan report for 192.168.1.209 [host down]
+Nmap scan report for 192.168.1.210 [host down]
+Nmap scan report for 192.168.1.211 [host down]
+Nmap scan report for 192.168.1.212 [host down]
+Nmap scan report for 192.168.1.213 [host down]
+Nmap scan report for 192.168.1.214 [host down]
+Nmap scan report for 192.168.1.215 [host down]
+Nmap scan report for 192.168.1.216 [host down]
+Nmap scan report for 192.168.1.217 [host down]
+Nmap scan report for 192.168.1.218 [host down]
+Nmap scan report for 192.168.1.219 [host down]
+Nmap scan report for 192.168.1.220 [host down]
+Nmap scan report for 192.168.1.221 [host down]
+Nmap scan report for 192.168.1.222 [host down]
+Nmap scan report for 192.168.1.223 [host down]
+Nmap scan report for 192.168.1.224 [host down]
+Nmap scan report for 192.168.1.225 [host down]
+Nmap scan report for 192.168.1.226 [host down]
+Nmap scan report for 192.168.1.227 [host down]
+Nmap scan report for 192.168.1.228 [host down]
+Nmap scan report for 192.168.1.229 [host down]
+Nmap scan report for 192.168.1.230 [host down]
+Nmap scan report for 192.168.1.231 [host down]
+Nmap scan report for 192.168.1.232 [host down]
+Nmap scan report for 192.168.1.233 [host down]
+Nmap scan report for 192.168.1.234 [host down]
+Nmap scan report for 192.168.1.235 [host down]
+Nmap scan report for 192.168.1.236 [host down]
+Nmap scan report for 192.168.1.237 [host down]
+Nmap scan report for 192.168.1.238 [host down]
+Nmap scan report for 192.168.1.239 [host down]
+Nmap scan report for 192.168.1.240 [host down]
+Nmap scan report for 192.168.1.241 [host down]
+Nmap scan report for 192.168.1.242 [host down]
+Nmap scan report for 192.168.1.243 [host down]
+Nmap scan report for 192.168.1.244 [host down]
+Nmap scan report for 192.168.1.245 [host down]
+Nmap scan report for 192.168.1.246 [host down]
+Nmap scan report for 192.168.1.247 [host down]
+Nmap scan report for 192.168.1.248 [host down]
+Nmap scan report for 192.168.1.249 [host down]
+Nmap scan report for 192.168.1.250 [host down]
+Nmap scan report for 192.168.1.251 [host down]
+Nmap scan report for 192.168.1.252 [host down]
+Nmap scan report for 192.168.1.253 [host down]
+Nmap scan report for 192.168.1.255 [host down]
+Initiating Parallel DNS resolution of 1 host. at 16:54
+Completed Parallel DNS resolution of 1 host. at 16:54, 0.51s elapsed
+Initiating SYN Stealth Scan at 16:54
+Scanning 3 hosts [1000 ports/host]
+Discovered open port 22/tcp on 192.168.1.254
+Discovered open port 80/tcp on 192.168.1.254
+Discovered open port 3000/tcp on 192.168.1.73
+Discovered open port 3001/tcp on 192.168.1.73
+Discovered open port 8443/tcp on 192.168.1.73
+Discovered open port 21/tcp on 192.168.1.254
+Discovered open port 443/tcp on 192.168.1.254
+Discovered open port 7000/tcp on 192.168.1.73
+Discovered open port 8008/tcp on 192.168.1.73
+Discovered open port 8009/tcp on 192.168.1.73
+Completed SYN Stealth Scan against 192.168.1.67 in 2.34s (2 hosts left)
+Completed SYN Stealth Scan against 192.168.1.73 in 2.34s (1 host left)
+Completed SYN Stealth Scan at 16:54, 8.89s elapsed (3000 total ports)
+Initiating Service scan at 16:54
+Scanning 10 services on 3 hosts
+WARNING: Service 192.168.1.254:80 had already soft-matched rtsp, but now soft-matched sip; ignoring second value
+WARNING: Service 192.168.1.254:443 had already soft-matched rtsp, but now soft-matched sip; ignoring second value
+Completed Service scan at 16:55, 91.42s elapsed (10 services on 3 hosts)
+Initiating OS detection (try #1) against 3 hosts
+Retrying OS detection (try #2) against 192.168.1.67
+NSE: Script scanning 3 hosts.
+Initiating NSE at 16:55
+Completed NSE at 16:56, 38.46s elapsed
+Initiating NSE at 16:56
+Completed NSE at 16:56, 7.14s elapsed
+Initiating NSE at 16:56
+Completed NSE at 16:56, 0.00s elapsed
+Nmap scan report for 192.168.1.67
+Host is up (0.0061s latency).
+All 1000 scanned ports on 192.168.1.67 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: C2:54:73:CB:4C:14 (Unknown)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   6.06 ms 192.168.1.67
+
+Nmap scan report for 192.168.1.73
+Host is up (0.0056s latency).
+Not shown: 994 closed tcp ports (reset)
+PORT     STATE SERVICE        VERSION
+3000/tcp open  tcpwrapped
+3001/tcp open  ssl/http       LG smart TV http service
+|_ssl-date: TLS randomness does not represent time
+| ssl-cert: Subject: commonName=LGE TV SSG/organizationName=LG Electronics Inc./stateOrProvinceName=Seoul/countryName=KR
+| Issuer: commonName=LGE SSG Intermediate CA/organizationName=LG Electronics Inc./stateOrProvinceName=Seoul/countryName=KR
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2018-03-12T01:49:52
+| Not valid after:  2034-08-15T01:49:52
+| MD5:     e9ce 2229 4741 f662 99d9 c190 4e8e 6919
+| SHA-1:   e3b2 1044 6eeb c986 7e0b 4bc0 8d25 bde4 dfff c489
+|_SHA-256: 11c5 b1c5 9077 50ab b9da 2a66 65cc ce2b b288 a583 f45a 3339 e71f 87bf 2f80 8552
+|_http-title: Site doesn't have a title.
+| tls-alpn: 
+|_  http/1.1
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+7000/tcp open  rtsp           AirTunes rtspd 377.40.00
+|_rtsp-methods: ERROR: Script execution failed (use -d to debug)
+|_irc-info: Unable to open connection
+8008/tcp open  http?
+|_http-title: Site doesn't have a title (text/html).
+8009/tcp open  ssl/ajp13?
+| ssl-cert: Subject: commonName=7fa19871-22b6-38e5-6d88-60cd316dd838
+| Issuer: commonName=7fa19871-22b6-38e5-6d88-60cd316dd838
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2025-11-12T17:51:56
+| Not valid after:  2025-11-14T17:51:56
+| MD5:     9b9f 7220 d6b4 2080 9901 72f6 ca97 438b
+| SHA-1:   644c 2aca 5956 7704 aaf5 b972 cbbf 46af c803 2b53
+|_SHA-256: 65d8 1f4d 04d2 86e8 7e28 9727 e8f6 3566 6cc6 1051 cbdd ab45 6609 4f57 04c5 20b6
+|_ssl-date: 2025-11-13T11:26:27+00:00; -3s from scanner time.
+|_ajp-methods: Failed to get a valid response for the OPTION request
+8443/tcp open  ssl/https-alt?
+|_ssl-date: 2025-11-13T11:26:27+00:00; -3s from scanner time.
+| ssl-cert: Subject: commonName=BCCF46485E1F77A7FF0D FA:8F:CA:9C:1D:F5
+| Issuer: commonName=LG 2024 Cast TV Mid/organizationName=LG Electronics/stateOrProvinceName=Seoul/countryName=KR
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2023-11-01T02:31:28
+| Not valid after:  2053-09-24T02:31:28
+| MD5:     c432 a408 5368 0e25 52fc a7a0 2518 af13
+| SHA-1:   cacb 3c84 4a25 b2dd 9b32 b13e 0b97 2578 4d48 7657
+|_SHA-256: c6de 8647 7e62 39d0 f3a2 b7d6 1fc4 63df 01b9 f00a d9ee e2ef c4a7 8539 8b3a 9649
+|_http-title: Site doesn't have a title (text/html).
+MAC Address: 38:06:E6:81:B1:DE (Arcadyan)
+Device type: general purpose|router
+Running: Linux 4.X|5.X, MikroTik RouterOS 7.X
+OS CPE: cpe:/o:linux:linux_kernel:4 cpe:/o:linux:linux_kernel:5 cpe:/o:mikrotik:routeros:7 cpe:/o:linux:linux_kernel:5.6.3
+OS details: Linux 4.15 - 5.19, OpenWrt 21.02 (Linux 5.4), MikroTik RouterOS 7.2 - 7.5 (Linux 5.6.3)
+Uptime guess: 42.858 days (since Wed Oct  1 20:20:27 2025)
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=259 (Good luck!)
+IP ID Sequence Generation: All zeros
+
+Host script results:
+|_clock-skew: mean: -3s, deviation: 0s, median: -3s
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   5.55 ms 192.168.1.73
+
+Nmap scan report for dsldevice.lan (192.168.1.254)
+Host is up (0.0044s latency).
+Not shown: 992 filtered tcp ports (no-response)
+PORT      STATE  SERVICE      VERSION
+21/tcp    open   ftp          ProFTPD
+22/tcp    open   ssh          Dropbear sshd 2020.81 (protocol 2.0)
+80/tcp    open   rtsp
+|_http-server-header: thttpd
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.0 200 OK
+|     Cache-Control:private,max-age=0;
+|     X-Frame-Options:SAMEORIGIN
+|     X-Content-Type-Options:nosniff
+|     X-XSS-Protection:1; mode=block
+|     Content-Security-Policy:default-src 'self' blob: 'unsafe-inline' 'unsafe-eval';img-src * data: 'unsafe-inline'
+|     Strict-Transport-Security:max-age=2592000; includeSubdomains
+|     Referrer-Policy: no-referrer
+|     Set-Cookie: lang=eng; path=/;
+|     Content-type:text/html;charset=UTF-8;
+|     &lt;!-- vim:fenc=utf-8
+|     &lt;html&gt;
+|     &lt;head&gt;
+|     &lt;title&gt;
+|     GPON Home Gateway
+|     &lt;/title&gt; 
+|     &lt;meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /&gt;
+|     &lt;meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/&gt;
+|     &lt;meta name="referrer" content="no-referrer"/&gt;
+|     &lt;script&gt;if(self!=top) top.location=self.location
+|     if(!window.name){
+|     location.reload();
+|     window.name = 'Bell';
+|     &lt;/script&gt;
+|     &lt;link rel="stylesheet" href='/css_glb/main.css' type='text/css'/&gt;
+|   HTTPOptions: 
+|     HTTP/1.0 501 Not Implemented
+|     Referrer-Policy: no-referrer
+|     Server: thttpd
+|     Content-Type: text/html; charset=utf-8
+|     Date: Sun, 18 Jan 1970 10:14:39 GMT
+|     Last-Modified: Sun, 18 Jan 1970 10:14:39 GMT
+|     Accept-Ranges: bytes
+|     Connection: close
+|     Cache-Control: no-cache,no-store
+|     &lt;HTML&gt;
+|     &lt;HEAD&gt;&lt;TITLE&gt;501 Not Implemented&lt;/TITLE&gt;&lt;/HEAD&gt;
+|     &lt;BODY BGCOLOR="#cc9999" TEXT="#000000" LINK="#2020ff" VLINK="#4040cc"&gt;
+|     &lt;H2&gt;501 Not Implemented&lt;/H2&gt;
+|     requested method 'OPTIONS' is not implemented by this server.
+|     &lt;HR&gt;
+|     &lt;/BODY&gt;
+|     &lt;/HTML&gt;
+|   RTSPRequest: 
+|     RTSP/1.0 501 Not Implemented
+|     Referrer-Policy: no-referrer
+|     Server: thttpd
+|     Content-Type: text/html; charset=utf-8
+|     Date: Sun, 18 Jan 1970 10:14:39 GMT
+|     Last-Modified: Sun, 18 Jan 1970 10:14:39 GMT
+|     Accept-Ranges: bytes
+|     Connection: close
+|     Cache-Control: no-cache,no-store
+|     &lt;HTML&gt;
+|     &lt;HEAD&gt;&lt;TITLE&gt;501 Not Implemented&lt;/TITLE&gt;&lt;/HEAD&gt;
+|     &lt;BODY BGCOLOR="#cc9999" TEXT="#000000" LINK="#2020ff" VLINK="#4040cc"&gt;
+|     &lt;H2&gt;501 Not Implemented&lt;/H2&gt;
+|     requested method 'OPTIONS' is not implemented by this server.
+|     &lt;HR&gt;
+|     &lt;/BODY&gt;
+|_    &lt;/HTML&gt;
+|_rtsp-methods: ERROR: Script execution failed (use -d to debug)
+|_http-title: GPON Home Gateway
+443/tcp   open   ssl/rtsp
+|_ssl-date: TLS randomness does not represent time
+|_http-server-header: thttpd
+| ssl-cert: Subject: commonName=dsldevice.lan/organizationName=NSB/stateOrProvinceName=SH/countryName=CN
+| Issuer: commonName=Nokia DHBU Root CA/organizationName=Nokia-DHBU/countryName=CN
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2016-09-07T06:17:48
+| Not valid after:  2036-09-02T06:17:48
+| MD5:     0a35 2b23 f76a f283 64d6 90a7 129e f181
+| SHA-1:   3df4 7ec5 61d3 239a 7cb8 9544 e252 ad58 283e b176
+|_SHA-256: 3638 08fa 22fc 15ac 26b8 3337 cf9b 6d2f a283 35bc 0053 69bd d9cc 0b74 a6c1 a40c
+| fingerprint-strings: 
+|   FourOhFourRequest: 
+|     HTTP/1.0 404 Not Found
+|     Referrer-Policy: no-referrer
+|     Server: thttpd
+|     Content-Type: text/html; charset=utf-8
+|     Date: Sun, 18 Jan 1970 10:14:45 GMT
+|     Last-Modified: Sun, 18 Jan 1970 10:14:45 GMT
+|     Accept-Ranges: bytes
+|     Connection: close
+|     Cache-Control: no-cache,no-store
+|     &lt;html&gt;
+|     &lt;head&gt;
+|     &lt;/head&gt;
+|     &lt;body&gt;
+|     style="text-align: center; height: 150px"&gt;
+|     &lt;span&gt;
+|     Error 404 Not found
+|     &lt;/span&gt;
+|     &lt;/h1&gt;
+|     style="text-align:center; font-size: 16px; font-weight: 400; padding: 10px 20px;"&gt;
+|     requested URL was not found on this server
+|     &lt;/p&gt;
+|     &lt;div style="text-align: center;"&gt;
+|     href="/"&gt;Home&lt;/a&gt;
+|     &lt;/div&gt;
+|     &lt;/body&gt;
+|     &lt;/html&gt;
+|     &lt;HR&gt;
+|     &lt;/BODY&gt;
+|     &lt;/HTML&gt;
+|   GetRequest: 
+|     HTTP/1.0 200 OK
+|     Cache-Control:private,max-age=0;
+|     X-Frame-Options:SAMEORIGIN
+|     X-Content-Type-Options:nosniff
+|     X-XSS-Protection:1; mode=block
+|     Content-Security-Policy:default-src 'self' blob: 'unsafe-inline' 'unsafe-eval';img-src * data: 'unsafe-inline'
+|     Strict-Transport-Security:max-age=2592000; includeSubdomains
+|     Referrer-Policy: no-referrer
+|     Set-Cookie: lang=eng; path=/;
+|     Content-type:text/html;charset=UTF-8;
+|     &lt;!-- vim:fenc=utf-8
+|     &lt;html&gt;
+|     &lt;head&gt;
+|     &lt;title&gt;
+|     GPON Home Gateway
+|     &lt;/title&gt; 
+|     &lt;meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /&gt;
+|     &lt;meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/&gt;
+|     &lt;meta name="referrer" content="no-referrer"/&gt;
+|     &lt;script&gt;if(self!=top) top.location=self.location
+|     if(!window.name){
+|     location.reload();
+|     window.name = 'Bell';
+|     &lt;/script&gt;
+|     &lt;link rel="stylesheet" href='/css_glb/main.css' type='text/css'/&gt;
+|   HTTPOptions: 
+|     HTTP/1.0 501 Not Implemented
+|     Referrer-Policy: no-referrer
+|     Server: thttpd
+|     Content-Type: text/html; charset=utf-8
+|     Date: Sun, 18 Jan 1970 10:14:45 GMT
+|     Last-Modified: Sun, 18 Jan 1970 10:14:45 GMT
+|     Accept-Ranges: bytes
+|     Connection: close
+|     Cache-Control: no-cache,no-store
+|     &lt;HTML&gt;
+|     &lt;HEAD&gt;&lt;TITLE&gt;501 Not Implemented&lt;/TITLE&gt;&lt;/HEAD&gt;
+|     &lt;BODY BGCOLOR="#cc9999" TEXT="#000000" LINK="#2020ff" VLINK="#4040cc"&gt;
+|     &lt;H2&gt;501 Not Implemented&lt;/H2&gt;
+|     requested method 'OPTIONS' is not implemented by this server.
+|     &lt;HR&gt;
+|     &lt;/BODY&gt;
+|_    &lt;/HTML&gt;
+|_http-title: GPON Home Gateway
+445/tcp   closed microsoft-ds
+49156/tcp closed unknown
+49160/tcp closed unknown
+49161/tcp closed unknown
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port80-TCP:V=7.98%I=7%D=11/13%Time=6915BFEA%P=i686-pc-windows-windows%r
+SF:(GetRequest,3631,"HTTP/1\.0\x20200\x20OK\r\nCache-Control:private,max-a
+SF:ge=0;\r\nX-Frame-Options:SAMEORIGIN\r\nX-Content-Type-Options:nosniff\r
+SF:\nX-XSS-Protection:1;\x20mode=block\r\nContent-Security-Policy:default-
+SF:src\x20'self'\x20blob:\x20'unsafe-inline'\x20'unsafe-eval';img-src\x20\
+SF:*\x20data:\x20'unsafe-inline'\r\nStrict-Transport-Security:max-age=2592
+SF:000;\x20includeSubdomains\r\nReferrer-Policy:\x20no-referrer\r\nSet-Coo
+SF:kie:\x20lang=eng;\x20path=/;\r\nContent-type:text/html;charset=UTF-8;\r
+SF:\n\r\n&lt;!--\x20vim:fenc=utf-8\r\n--&gt;\r\n&lt;html&gt;\r\n&lt;head&gt;\r\n&lt;title&gt;\r\n\
+SF:r\nGPON\x20Home\x20Gateway\r\n\r\n&lt;/title&gt;\t\t\r\n&lt;meta\x20http-equiv=\
+SF:"Content-Type\"\x20content=\"text/html;\x20charset=UTF-8\"\x20/&gt;\r\n&lt;me
+SF:ta\x20http-equiv=\"X-UA-Compatible\"\x20content=\"IE=edge,chrome=1\"/&gt;\
+SF:r\n&lt;meta\x20name=\"referrer\"\x20content=\"no-referrer\"/&gt;\r\n&lt;script&gt;i
+SF:f\(self!=top\)\x20top\.location=self\.location\r\n\r\nif\(!window\.name
+SF:\){\r\n\x20\x20\x20\x20\x20\x20\x20\x20location\.reload\(\);\r\n\x20\x2
+SF:0\x20\x20\x20\x20\x20\x20window\.name\x20=\x20'Bell';\r\n}\r\n&lt;/script&gt;
+SF:\r\n&lt;link\x20rel=\"stylesheet\"\x20href='/css_glb/main\.css'\x20type='t
+SF:ext/css'/&gt;\r\n&lt;")%r(HTTPOptions,206,"HTTP/1\.0\x20501\x20Not\x20Impleme
+SF:nted\r\nReferrer-Policy:\x20no-referrer\r\nServer:\x20thttpd\r\nContent
+SF:-Type:\x20text/html;\x20charset=utf-8\r\nDate:\x20Sun,\x2018\x20Jan\x20
+SF:1970\x2010:14:39\x20GMT\r\nLast-Modified:\x20Sun,\x2018\x20Jan\x201970\
+SF:x2010:14:39\x20GMT\r\nAccept-Ranges:\x20bytes\r\nConnection:\x20close\r
+SF:\nCache-Control:\x20no-cache,no-store\r\n\r\n&lt;HTML&gt;\n&lt;HEAD&gt;&lt;TITLE&gt;501\x
+SF:20Not\x20Implemented&lt;/TITLE&gt;&lt;/HEAD&gt;\n&lt;BODY\x20BGCOLOR=\"#cc9999\"\x20TE
+SF:XT=\"#000000\"\x20LINK=\"#2020ff\"\x20VLINK=\"#4040cc\"&gt;\n&lt;H2&gt;501\x20No
+SF:t\x20Implemented&lt;/H2&gt;\nThe\x20requested\x20method\x20'OPTIONS'\x20is\x2
+SF:0not\x20implemented\x20by\x20this\x20server\.\n&lt;HR&gt;\n&lt;/BODY&gt;\n&lt;/HTML&gt;\n
+SF:")%r(RTSPRequest,206,"RTSP/1\.0\x20501\x20Not\x20Implemented\r\nReferre
+SF:r-Policy:\x20no-referrer\r\nServer:\x20thttpd\r\nContent-Type:\x20text/
+SF:html;\x20charset=utf-8\r\nDate:\x20Sun,\x2018\x20Jan\x201970\x2010:14:3
+SF:9\x20GMT\r\nLast-Modified:\x20Sun,\x2018\x20Jan\x201970\x2010:14:39\x20
+SF:GMT\r\nAccept-Ranges:\x20bytes\r\nConnection:\x20close\r\nCache-Control
+SF::\x20no-cache,no-store\r\n\r\n&lt;HTML&gt;\n&lt;HEAD&gt;&lt;TITLE&gt;501\x20Not\x20Implem
+SF:ented&lt;/TITLE&gt;&lt;/HEAD&gt;\n&lt;BODY\x20BGCOLOR=\"#cc9999\"\x20TEXT=\"#000000\"\
+SF:x20LINK=\"#2020ff\"\x20VLINK=\"#4040cc\"&gt;\n&lt;H2&gt;501\x20Not\x20Implemente
+SF:d&lt;/H2&gt;\nThe\x20requested\x20method\x20'OPTIONS'\x20is\x20not\x20impleme
+SF:nted\x20by\x20this\x20server\.\n&lt;HR&gt;\n&lt;/BODY&gt;\n&lt;/HTML&gt;\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port443-TCP:V=7.98%T=SSL%I=7%D=11/13%Time=6915BFF1%P=i686-pc-windows-wi
+SF:ndows%r(GetRequest,1411,"HTTP/1\.0\x20200\x20OK\r\nCache-Control:privat
+SF:e,max-age=0;\r\nX-Frame-Options:SAMEORIGIN\r\nX-Content-Type-Options:no
+SF:sniff\r\nX-XSS-Protection:1;\x20mode=block\r\nContent-Security-Policy:d
+SF:efault-src\x20'self'\x20blob:\x20'unsafe-inline'\x20'unsafe-eval';img-s
+SF:rc\x20\*\x20data:\x20'unsafe-inline'\r\nStrict-Transport-Security:max-a
+SF:ge=2592000;\x20includeSubdomains\r\nReferrer-Policy:\x20no-referrer\r\n
+SF:Set-Cookie:\x20lang=eng;\x20path=/;\r\nContent-type:text/html;charset=U
+SF:TF-8;\r\n\r\n&lt;!--\x20vim:fenc=utf-8\r\n--&gt;\r\n&lt;html&gt;\r\n&lt;head&gt;\r\n&lt;titl
+SF:e&gt;\r\n\r\nGPON\x20Home\x20Gateway\r\n\r\n&lt;/title&gt;\t\t\r\n&lt;meta\x20http-
+SF:equiv=\"Content-Type\"\x20content=\"text/html;\x20charset=UTF-8\"\x20/&gt;
+SF:\r\n&lt;meta\x20http-equiv=\"X-UA-Compatible\"\x20content=\"IE=edge,chrome
+SF:=1\"/&gt;\r\n&lt;meta\x20name=\"referrer\"\x20content=\"no-referrer\"/&gt;\r\n&lt;s
+SF:cript&gt;if\(self!=top\)\x20top\.location=self\.location\r\n\r\nif\(!windo
+SF:w\.name\){\r\n\x20\x20\x20\x20\x20\x20\x20\x20location\.reload\(\);\r\n
+SF:\x20\x20\x20\x20\x20\x20\x20\x20window\.name\x20=\x20'Bell';\r\n}\r\n&lt;/
+SF:script&gt;\r\n&lt;link\x20rel=\"stylesheet\"\x20href='/css_glb/main\.css'\x20
+SF:type='text/css'/&gt;\r\n&lt;")%r(HTTPOptions,206,"HTTP/1\.0\x20501\x20Not\x20
+SF:Implemented\r\nReferrer-Policy:\x20no-referrer\r\nServer:\x20thttpd\r\n
+SF:Content-Type:\x20text/html;\x20charset=utf-8\r\nDate:\x20Sun,\x2018\x20
+SF:Jan\x201970\x2010:14:45\x20GMT\r\nLast-Modified:\x20Sun,\x2018\x20Jan\x
+SF:201970\x2010:14:45\x20GMT\r\nAccept-Ranges:\x20bytes\r\nConnection:\x20
+SF:close\r\nCache-Control:\x20no-cache,no-store\r\n\r\n&lt;HTML&gt;\n&lt;HEAD&gt;&lt;TITL
+SF:E&gt;501\x20Not\x20Implemented&lt;/TITLE&gt;&lt;/HEAD&gt;\n&lt;BODY\x20BGCOLOR=\"#cc9999\
+SF:"\x20TEXT=\"#000000\"\x20LINK=\"#2020ff\"\x20VLINK=\"#4040cc\"&gt;\n&lt;H2&gt;50
+SF:1\x20Not\x20Implemented&lt;/H2&gt;\nThe\x20requested\x20method\x20'OPTIONS'\x
+SF:20is\x20not\x20implemented\x20by\x20this\x20server\.\n&lt;HR&gt;\n&lt;/BODY&gt;\n&lt;/
+SF:HTML&gt;\n")%r(FourOhFourRequest,292,"HTTP/1\.0\x20404\x20Not\x20Found\r\n
+SF:Referrer-Policy:\x20no-referrer\r\nServer:\x20thttpd\r\nContent-Type:\x
+SF:20text/html;\x20charset=utf-8\r\nDate:\x20Sun,\x2018\x20Jan\x201970\x20
+SF:10:14:45\x20GMT\r\nLast-Modified:\x20Sun,\x2018\x20Jan\x201970\x2010:14
+SF::45\x20GMT\r\nAccept-Ranges:\x20bytes\r\nConnection:\x20close\r\nCache-
+SF:Control:\x20no-cache,no-store\r\n\r\n&lt;html&gt;\n&lt;head&gt;\n\n&lt;/head&gt;\n&lt;body&gt;\
+SF:n\t&lt;h1\x20style=\"text-align:\x20center;\x20height:\x20150px\"&gt;\n\t\t&lt;s
+SF:pan&gt;\n\t\t\tError\x20404\x20Not\x20found\n\t\t&lt;/span&gt;\n\x20\x20\x20\x20
+SF:&lt;/h1&gt;\n\x20\x20\x20\x20&lt;p\x20style=\"text-align:center;\x20font-size:\x
+SF:2016px;\x20font-weight:\x20400;\x20padding:\x2010px\x2020px;\"&gt;\n\x20\x
+SF:20\x20\x20\x20\x20\x20\x20The\x20requested\x20URL\x20was\x20not\x20foun
+SF:d\x20on\x20this\x20server\n\x20\x20\x20\x20\x20&lt;/p&gt;\n\t&lt;div\x20style=\"
+SF:text-align:\x20center;\"&gt;\n\t\t&lt;a\x20href=\"/\"&gt;Home&lt;/a&gt;\n\t&lt;/div&gt;\n&lt;/b
+SF:ody&gt;\n&lt;/html&gt;\n&lt;HR&gt;\n&lt;/BODY&gt;\n&lt;/HTML&gt;\n");
+MAC Address: C8:9C:BB:04:5C:40 (Taicang T&amp;W Electronics)
+Device type: general purpose
+Running: Linux 3.X|4.X
+OS CPE: cpe:/o:linux:linux_kernel:3 cpe:/o:linux:linux_kernel:4
+OS details: Linux 3.11 - 4.9
+Uptime guess: 17.425 days (since Mon Oct 27 06:44:47 2025)
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=258 (Good luck!)
+IP ID Sequence Generation: All zeros
+Service Info: Host: 192.168.1.254; OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   4.42 ms dsldevice.lan (192.168.1.254)
+
+Initiating SYN Stealth Scan at 16:56
+Scanning 192.168.1.74 [1000 ports]
+Discovered open port 135/tcp on 192.168.1.74
+Discovered open port 139/tcp on 192.168.1.74
+Discovered open port 445/tcp on 192.168.1.74
+Completed SYN Stealth Scan at 16:56, 0.04s elapsed (1000 total ports)
+Initiating Service scan at 16:56
+Scanning 3 services on 192.168.1.74
+Completed Service scan at 16:56, 6.15s elapsed (3 services on 1 host)
+Initiating OS detection (try #1) against 192.168.1.74
+Retrying OS detection (try #2) against 192.168.1.74
+Retrying OS detection (try #3) against 192.168.1.74
+Retrying OS detection (try #4) against 192.168.1.74
+Retrying OS detection (try #5) against 192.168.1.74
+NSE: Script scanning 192.168.1.74.
+Initiating NSE at 16:56
+Completed NSE at 16:57, 14.18s elapsed
+Initiating NSE at 16:57
+Completed NSE at 16:57, 0.01s elapsed
+Initiating NSE at 16:57
+Completed NSE at 16:57, 0.00s elapsed
+Nmap scan report for 192.168.1.74
+Host is up (0.00036s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT    STATE SERVICE       VERSION
+135/tcp open  msrpc         Microsoft Windows RPC
+139/tcp open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp open  microsoft-ds?
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.98%E=4%D=11/13%OT=135%CT=1%CU=30668%PV=Y%DS=0%DC=L%G=Y%TM=6915C
+OS:08B%P=i686-pc-windows-windows)SEQ(SP=103%GCD=1%ISR=108%TI=I%CI=I%II=I%SS
+OS:=S%TS=A)SEQ(SP=105%GCD=1%ISR=10A%TI=I%CI=I%II=I%SS=S%TS=A)SEQ(SP=106%GCD
+OS:=1%ISR=10A%TI=I%CI=I%II=I%SS=S%TS=A)SEQ(SP=106%GCD=1%ISR=10B%TI=I%CI=I%I
+OS:I=I%SS=S%TS=A)SEQ(SP=FF%GCD=1%ISR=104%TI=I%CI=I%II=I%SS=S%TS=A)OPS(O1=MF
+OS:FD7NW8ST11%O2=MFFD7NW8ST11%O3=MFFD7NW8NNT11%O4=MFFD7NW8ST11%O5=MFFD7NW8S
+OS:T11%O6=MFFD7ST11)WIN(W1=FFFF%W2=FFFF%W3=FFFF%W4=FFFF%W5=FFFF%W6=FFFF)ECN
+OS:(R=Y%DF=Y%T=80%W=FFFF%O=MFFD7NW8NNS%CC=N%Q=)T1(R=Y%DF=Y%T=80%S=O%A=S+%F=
+OS:AS%RD=0%Q=)T2(R=Y%DF=Y%T=80%W=0%S=Z%A=S%F=AR%O=%RD=0%Q=)T3(R=Y%DF=Y%T=80
+OS:%W=0%S=Z%A=O%F=AR%O=%RD=0%Q=)T4(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=
+OS:)T5(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=80%W=0%S=A%
+OS:A=O%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%
+OS:DF=N%T=80%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=Z%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=
+OS:80%CD=Z)
+
+Uptime guess: 1.241 days (since Wed Nov 12 11:09:25 2025)
+Network Distance: 0 hops
+TCP Sequence Prediction: Difficulty=255 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb2-time: 
+|   date: 2025-11-13T11:26:58
+|_  start_date: N/A
+| smb2-security-mode: 
+|   3.1.1: 
+|_    Message signing enabled but not required
+
+NSE: Script Post-scanning.
+Initiating NSE at 16:57
+Completed NSE at 16:57, 0.00s elapsed
+Initiating NSE at 16:57
+Completed NSE at 16:57, 0.00s elapsed
+Initiating NSE at 16:57
+Completed NSE at 16:57, 0.00s elapsed
+Read data files from: C:\Program Files (x86)\Nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 256 IP addresses (4 hosts up) scanned in 197.27 seconds
+           Raw packets sent: 6657 (291.062KB) | Rcvd: 4308 (186.510KB)
+</output><host comment=""><status state="down"></status><address addr="192.168.1.0" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.1" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.2" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.3" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.4" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.5" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.6" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.7" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.8" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.9" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.10" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.11" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.12" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.13" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.14" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.15" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.16" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.17" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.18" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.19" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.20" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.21" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.22" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.23" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.24" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.25" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.26" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.27" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.28" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.29" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.30" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.31" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.32" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.33" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.34" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.35" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.36" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.37" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.38" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.39" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.40" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.41" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.42" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.43" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.44" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.45" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.46" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.47" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.48" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.49" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.50" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.51" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.52" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.53" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.54" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.55" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.56" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.57" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.58" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.59" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.60" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.61" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.62" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.63" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.64" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.65" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.66" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.68" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.69" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.70" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.71" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.72" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.75" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.76" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.77" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.78" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.79" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.80" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.81" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.82" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.83" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.84" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.85" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.86" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.87" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.88" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.89" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.90" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.91" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.92" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.93" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.94" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.95" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.96" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.97" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.98" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.99" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.100" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.101" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.102" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.103" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.104" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.105" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.106" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.107" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.108" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.109" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.110" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.111" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.112" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.113" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.114" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.115" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.116" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.117" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.118" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.119" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.120" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.121" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.122" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.123" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.124" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.125" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.126" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.127" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.128" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.129" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.130" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.131" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.132" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.133" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.134" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.135" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.136" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.137" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.138" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.139" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.140" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.141" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.142" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.143" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.144" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.145" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.146" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.147" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.148" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.149" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.150" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.151" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.152" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.153" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.154" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.155" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.156" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.157" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.158" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.159" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.160" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.161" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.162" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.163" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.164" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.165" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.166" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.167" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.168" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.169" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.170" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.171" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.172" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.173" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.174" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.175" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.176" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.177" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.178" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.179" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.180" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.181" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.182" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.183" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.184" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.185" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.186" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.187" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.188" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.189" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.190" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.191" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.192" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.193" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.194" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.195" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.196" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.197" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.198" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.199" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.200" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.201" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.202" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.203" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.204" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.205" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.206" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.207" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.208" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.209" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.210" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.211" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.212" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.213" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.214" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.215" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.216" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.217" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.218" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.219" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.220" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.221" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.222" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.223" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.224" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.225" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.226" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.227" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.228" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.229" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.230" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.231" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.232" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.233" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.234" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.235" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.236" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.237" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.238" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.239" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.240" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.241" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.242" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.243" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.244" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.245" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.246" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.247" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.248" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.249" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.250" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.251" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.252" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.253" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="down"></status><address addr="192.168.1.255" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="up"></status><address addr="192.168.1.67" vendor="" addrtype="ipv4"></address><address addr="C2:54:73:CB:4C:14" vendor="" addrtype="mac"></address><hostnames></hostnames><ports><extraports count="1000" state="closed"></extraports></ports><os><portused state="closed" proto="tcp" portid="1"></portused><portused state="closed" proto="udp" portid="41146"></portused></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence><trace proto="" port=""><hop ttl="1" rtt="6.06" ipaddr="192.168.1.67" host=""></hop></trace></host><host comment=""><status state="up"></status><address addr="192.168.1.73" vendor="" addrtype="ipv4"></address><address addr="38:06:E6:81:B1:DE" vendor="Arcadyan" addrtype="mac"></address><hostnames></hostnames><ports><extraports count="994" state="closed"></extraports><port portid="3000" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="64"></state><service conf="8" method="probed" name="tcpwrapped"></service></port><port portid="3001" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="64"></state><service conf="10" method="probed" name="http" product="LG smart TV http service"></service></port><port portid="7000" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="64"></state><service conf="10" method="probed" name="rtsp" product="AirTunes rtspd" version="377.40.00"></service></port><port portid="8008" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="64"></state><service conf="3" method="table" name="http"></service></port><port portid="8009" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="64"></state><service conf="3" method="table" name="ajp13"></service></port><port portid="8443" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="64"></state><service conf="3" method="table" name="https-alt"></service></port></ports><os><portused state="open" proto="tcp" portid="3001"></portused><portused state="closed" proto="tcp" portid="1"></portused><portused state="closed" proto="udp" portid="44160"></portused><osmatch name="Linux 4.15 - 5.19" accuracy="100" line="70534"><osclass vendor="Linux" osfamily="Linux" type="general purpose" osgen="5.X" accuracy="100"></osclass></osmatch><osmatch name="OpenWrt 21.02 (Linux 5.4)" accuracy="100" line="72530"><osclass vendor="Linux" osfamily="Linux" type="general purpose" osgen="5.X" accuracy="100"></osclass></osmatch><osmatch name="MikroTik RouterOS 7.2 - 7.5 (Linux 5.6.3)" accuracy="100" line="91792"><osclass vendor="Linux" osfamily="Linux" type="router" osgen="5.X" accuracy="100"></osclass></osmatch></os><uptime seconds="3702970" lastboot="Wed Oct  1 20:20:27 2025"></uptime><tcpsequence index="259" difficulty="Good luck!" values="41DB2154,35ED4519,EEB3B6A6,ACDE358C,108B352E,ABF8F0DB"></tcpsequence><ipidsequence class="All zeros" values="0,0,0,0,0,0"></ipidsequence><tcptssequence class="1000HZ" values="DCB617CE,DCB61839,DCB618AA,DCB6191A,DCB61988,DCB619F4"></tcptssequence><trace proto="" port=""><hop ttl="1" rtt="5.55" ipaddr="192.168.1.73" host=""></hop></trace></host><host comment=""><status state="up"></status><address addr="192.168.1.254" vendor="" addrtype="ipv4"></address><address addr="C8:9C:BB:04:5C:40" vendor="Taicang T&amp;W Electronics" addrtype="mac"></address><hostnames><hostname name="dsldevice.lan" type="PTR"></hostname></hostnames><ports><extraports count="992" state="filtered"></extraports><port portid="21" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="64"></state><service conf="10" method="probed" name="ftp" product="ProFTPD"></service></port><port portid="22" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="64"></state><service conf="10" method="probed" name="ssh" product="Dropbear sshd" version="2020.81" extrainfo="protocol 2.0"></service></port><port portid="80" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="64"></state><service conf="10" method="probed" name="rtsp"></service></port><port portid="443" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="64"></state><service conf="10" method="probed" name="rtsp"></service></port><port portid="445" protocol="tcp"><state state="closed" reason="reset" reason_ttl="64"></state><service conf="3" method="table" name="microsoft-ds"></service></port><port portid="49156" protocol="tcp"><state state="closed" reason="reset" reason_ttl="64"></state><service></service></port><port portid="49160" protocol="tcp"><state state="closed" reason="reset" reason_ttl="64"></state><service></service></port><port portid="49161" protocol="tcp"><state state="closed" reason="reset" reason_ttl="64"></state><service></service></port></ports><os><portused state="open" proto="tcp" portid="21"></portused><portused state="closed" proto="tcp" portid="445"></portused><portused state="closed" proto="udp" portid="43189"></portused><osmatch name="Linux 3.11 - 4.9" accuracy="100" line="66841"><osclass vendor="Linux" osfamily="Linux" type="general purpose" osgen="4.X" accuracy="100"></osclass></osmatch></os><uptime seconds="1505510" lastboot="Mon Oct 27 06:44:47 2025"></uptime><tcpsequence index="258" difficulty="Good luck!" values="AC1E9DA3,6C2276F6,14B82845,23B0D81D,D73AB15C,3DA16D5D"></tcpsequence><ipidsequence class="All zeros" values="0,0,0,0,0,0"></ipidsequence><tcptssequence class="100HZ" values="8F926CE,8F926D9,8F926E4,8F926EF,8F926FA,8F92705"></tcptssequence><trace proto="" port=""><hop ttl="1" rtt="4.42" ipaddr="192.168.1.254" host="dsldevice.lan"></hop></trace></host><host comment=""><status state="up"></status><address addr="192.168.1.74" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports><extraports count="997" state="closed"></extraports><port portid="135" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="10" method="probed" name="msrpc" product="Microsoft Windows RPC"></service></port><port portid="139" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="10" method="probed" name="netbios-ssn" product="Microsoft Windows netbios-ssn"></service></port><port portid="445" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="microsoft-ds"></service></port></ports><os><portused state="open" proto="tcp" portid="135"></portused><portused state="closed" proto="tcp" portid="1"></portused><portused state="closed" proto="udp" portid="30668"></portused><osmatch name="Microsoft Windows 10 1607 - 11 23H2" accuracy="99" line="74791"><osclass vendor="Microsoft" osfamily="Windows" type="general purpose" osgen="11" accuracy="99"></osclass></osmatch><osmatch name="Microsoft Windows 10 1511" accuracy="97" line="74530"><osclass vendor="Microsoft" osfamily="Windows" type="general purpose" osgen="10" accuracy="97"></osclass></osmatch><osmatch name="Windows 11 21H2" accuracy="97" line="75587"><osclass vendor="Microsoft" osfamily="Windows" type="general purpose" osgen="11" accuracy="97"></osclass></osmatch><osmatch name="Microsoft Windows 10 1703" accuracy="96" line="74847"><osclass vendor="Microsoft" osfamily="Windows" type="general purpose" osgen="10" accuracy="96"></osclass></osmatch><osmatch name="Windows Server 2022" accuracy="96" line="82130"><osclass vendor="Microsoft" osfamily="Windows" type="general purpose" osgen="2022" accuracy="96"></osclass></osmatch><osmatch name="Microsoft Windows 10 1703 or Windows 11 21H2" accuracy="96" line="74943"><osclass vendor="Microsoft" osfamily="Windows" type="general purpose" osgen="11" accuracy="96"></osclass></osmatch><osmatch name="Microsoft Windows 10 1703 - 11 21H2" accuracy="95" line="74920"><osclass vendor="Microsoft" osfamily="Windows" type="general purpose" osgen="11" accuracy="95"></osclass></osmatch><osmatch name="Microsoft Windows 11 21H2" accuracy="95" line="75569"><osclass vendor="Microsoft" osfamily="Windows" type="general purpose" osgen="11" accuracy="95"></osclass></osmatch><osmatch name="Microsoft Windows 7 or 8.1 R1" accuracy="94" line="82755"><osclass vendor="Microsoft" osfamily="Windows" type="general purpose" osgen="8.1" accuracy="94"></osclass></osmatch><osmatch name="Microsoft Windows 10 1607" accuracy="94" line="74626"><osclass vendor="Microsoft" osfamily="Windows" type="general purpose" osgen="10" accuracy="94"></osclass></osmatch></os><uptime seconds="107262" lastboot="Wed Nov 12 11:09:25 2025"></uptime><tcpsequence index="255" difficulty="Good luck!" values="8156F997,4408522D,2F25E361,1859B973,5FD7F05F,48C53E94"></tcpsequence><ipidsequence class="Incremental" values="3115,3117,3119,311B,311D,311F"></ipidsequence><tcptssequence class="1000HZ" values="6647771,66477E0,664784F,66478BE,6647927,6647996"></tcptssequence></host><runstats><finished time="1763033227" timestr="Thu Nov 13 16:57:07 2025"></finished><hosts up="4" down="252" total="256"></hosts></runstats></nmaprun>
